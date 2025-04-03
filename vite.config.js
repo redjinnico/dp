@@ -2,7 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
-  base: '/test_portfolio/',
+  // base: '/dp/',
+  
   plugins: [react(), tailwindcss()],
   server: {
     allowedHosts: [
